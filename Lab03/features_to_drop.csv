@@ -1,9 +1,0 @@
-bien_loai,ly_do,bang_chung,corr_voi_SalePrice
-BsmtFinSF1,Thành phần của TotalBsmtSF,Cộng tuyến hoàn hảo (VIF vô hạn),0.386
-BsmtFinSF2,Thành phần của TotalBsmtSF,Cộng tuyến hoàn hảo (VIF vô hạn),-0.011
-BsmtUnfSF,Thành phần của TotalBsmtSF,Cộng tuyến hoàn hảo (VIF vô hạn),0.214
-1stFlrSF,Thành phần của GrLivArea; còn tương quan 0.82 với TotalBsmtSF,Cộng tuyến hoàn hảo (VIF vô hạn),0.606
-2ndFlrSF,Thành phần của GrLivArea,Cộng tuyến hoàn hảo (VIF vô hạn),0.319
-LowQualFinSF,Thành phần của GrLivArea,Cộng tuyến hoàn hảo (VIF vô hạn),-0.026
-GarageArea,Giữ GarageCars (r với giá cao hơn),"r(GarageCars, GarageArea) = 0.88",0.623
-TotRmsAbvGrd,Giữ GrLivArea (r với giá cao hơn),"r(GrLivArea, TotRmsAbvGrd) = 0.83",0.534
