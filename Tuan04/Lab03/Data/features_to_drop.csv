@@ -1,0 +1,9 @@
+Biến loại,Lý do,r với SalePrice
+BsmtFinSF1,Thành phần của TotalBsmtSF (cộng tuyến hoàn hảo),0.386
+BsmtFinSF2,Thành phần của TotalBsmtSF (cộng tuyến hoàn hảo),-0.011
+BsmtUnfSF,Thành phần của TotalBsmtSF (cộng tuyến hoàn hảo),0.214
+1stFlrSF,Thành phần của GrLivArea (cộng tuyến hoàn hảo); r = 0.82 với TotalBsmtSF,0.606
+2ndFlrSF,Thành phần của GrLivArea (cộng tuyến hoàn hảo),0.319
+LowQualFinSF,Thành phần của GrLivArea (cộng tuyến hoàn hảo),-0.026
+GarageArea,Giữ GarageCars (r với giá cao hơn); r = 0.88 với GarageCars,0.623
+TotRmsAbvGrd,Giữ GrLivArea (r với giá cao hơn); r = 0.83 với GrLivArea,0.534
