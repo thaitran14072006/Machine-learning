@@ -1,0 +1,40 @@
+Method,K,Model,Features,R2,RMSE,MAE,Fit_time_s
+Baseline (all),11,SVR,"Area, Bedrooms, Bathrooms, Floors, YearBuilt, Condition, Garage, Location_Downtown, Location_Rural, Location_Suburban, Location_Urban",-0.4306,333614.6157,280404.9494,0.2909
+Baseline (all),11,XGBoost,"Area, Bedrooms, Bathrooms, Floors, YearBuilt, Condition, Garage, Location_Downtown, Location_Rural, Location_Suburban, Location_Urban",-0.0736,289000.0628,249431.7344,0.1779
+Baseline (all),11,RandomForest,"Area, Bedrooms, Bathrooms, Floors, YearBuilt, Condition, Garage, Location_Downtown, Location_Rural, Location_Suburban, Location_Urban",-0.1061,293350.7395,253783.6407,2.3665
+Pearson,3,SVR,"Floors, Bathrooms, Location_Urban",-0.0252,282420.1389,245942.9083,0.1207
+Pearson,3,XGBoost,"Floors, Bathrooms, Location_Urban",-0.0026,279281.7155,243912.1250,0.1160
+Pearson,3,RandomForest,"Floors, Bathrooms, Location_Urban",-0.0033,279384.1430,243962.8676,0.7352
+Pearson,5,SVR,"Floors, Bathrooms, Location_Urban, Location_Suburban, Condition",-0.1614,300595.0497,258518.1365,0.2239
+Pearson,5,XGBoost,"Floors, Bathrooms, Location_Urban, Location_Suburban, Condition",-0.0773,289500.9139,249323.3750,0.1199
+Pearson,5,RandomForest,"Floors, Bathrooms, Location_Urban, Location_Suburban, Condition",-0.1379,297531.3420,252797.7219,0.9898
+Pearson,7,SVR,"Floors, Bathrooms, Location_Urban, Location_Suburban, Condition, YearBuilt, Location_Rural",-0.2270,308961.2312,261805.8574,0.1619
+Pearson,7,XGBoost,"Floors, Bathrooms, Location_Urban, Location_Suburban, Condition, YearBuilt, Location_Rural",-0.0962,292032.3717,248952.0781,0.0795
+Pearson,7,RandomForest,"Floors, Bathrooms, Location_Urban, Location_Suburban, Condition, YearBuilt, Location_Rural",-0.1732,302120.2988,256029.4323,1.8062
+Pearson,9,SVR,"Floors, Bathrooms, Location_Urban, Location_Suburban, Condition, YearBuilt, Location_Rural, Garage, Location_Downtown",-0.2120,307072.1819,261008.9109,0.1522
+Pearson,9,XGBoost,"Floors, Bathrooms, Location_Urban, Location_Suburban, Condition, YearBuilt, Location_Rural, Garage, Location_Downtown",-0.0965,292070.2671,249775.4375,0.1075
+Pearson,9,RandomForest,"Floors, Bathrooms, Location_Urban, Location_Suburban, Condition, YearBuilt, Location_Rural, Garage, Location_Downtown",-0.1530,299507.1246,254479.3411,1.5070
+MutualInfo,3,SVR,"Location_Rural, Condition, Garage",-0.0267,282628.8106,245199.6701,0.0974
+MutualInfo,3,XGBoost,"Location_Rural, Condition, Garage",-0.0136,280818.6396,243794.1406,0.0862
+MutualInfo,3,RandomForest,"Location_Rural, Condition, Garage",-0.0132,280761.5037,243779.0280,0.4942
+MutualInfo,5,SVR,"Location_Rural, Condition, Garage, Bathrooms, Bedrooms",-0.1561,299901.9941,255662.4505,0.1350
+MutualInfo,5,XGBoost,"Location_Rural, Condition, Garage, Bathrooms, Bedrooms",-0.0738,289038.3415,248433.0938,0.0724
+MutualInfo,5,RandomForest,"Location_Rural, Condition, Garage, Bathrooms, Bedrooms",-0.1950,304911.4754,256396.6983,0.6608
+MutualInfo,7,SVR,"Location_Rural, Condition, Garage, Bathrooms, Bedrooms, Area, YearBuilt",-0.4201,332389.7085,283533.0401,0.2403
+MutualInfo,7,XGBoost,"Location_Rural, Condition, Garage, Bathrooms, Bedrooms, Area, YearBuilt",-0.1025,292872.8950,252147.0000,0.1196
+MutualInfo,7,RandomForest,"Location_Rural, Condition, Garage, Bathrooms, Bedrooms, Area, YearBuilt",-0.1227,295543.6910,254635.2241,1.9356
+MutualInfo,9,SVR,"Location_Rural, Condition, Garage, Bathrooms, Bedrooms, Area, YearBuilt, Floors, Location_Downtown",-0.4785,339151.8727,285187.9585,0.2198
+MutualInfo,9,XGBoost,"Location_Rural, Condition, Garage, Bathrooms, Bedrooms, Area, YearBuilt, Floors, Location_Downtown",-0.0891,291080.2743,251086.7969,0.0911
+MutualInfo,9,RandomForest,"Location_Rural, Condition, Garage, Bathrooms, Bedrooms, Area, YearBuilt, Floors, Location_Downtown",-0.0988,292378.7742,254153.5806,2.1713
+F_regression,3,SVR,"Floors, Bathrooms, Location_Urban",-0.0252,282420.1389,245942.9083,0.1105
+F_regression,3,XGBoost,"Floors, Bathrooms, Location_Urban",-0.0026,279281.7155,243912.1250,0.0693
+F_regression,3,RandomForest,"Floors, Bathrooms, Location_Urban",-0.0033,279384.1430,243962.8676,0.4590
+F_regression,5,SVR,"Floors, Bathrooms, Location_Urban, Location_Suburban, Condition",-0.1614,300595.0497,258518.1365,0.2098
+F_regression,5,XGBoost,"Floors, Bathrooms, Location_Urban, Location_Suburban, Condition",-0.0773,289500.9139,249323.3750,0.1228
+F_regression,5,RandomForest,"Floors, Bathrooms, Location_Urban, Location_Suburban, Condition",-0.1379,297531.3420,252797.7219,0.6923
+F_regression,7,SVR,"Floors, Bathrooms, Location_Urban, Location_Suburban, Condition, YearBuilt, Location_Rural",-0.2270,308961.2312,261805.8574,0.2746
+F_regression,7,XGBoost,"Floors, Bathrooms, Location_Urban, Location_Suburban, Condition, YearBuilt, Location_Rural",-0.0962,292032.3717,248952.0781,0.1353
+F_regression,7,RandomForest,"Floors, Bathrooms, Location_Urban, Location_Suburban, Condition, YearBuilt, Location_Rural",-0.1732,302120.2988,256029.4323,1.2760
+F_regression,9,SVR,"Floors, Bathrooms, Location_Urban, Location_Suburban, Condition, YearBuilt, Location_Rural, Garage, Location_Downtown",-0.2120,307072.1819,261008.9109,0.1685
+F_regression,9,XGBoost,"Floors, Bathrooms, Location_Urban, Location_Suburban, Condition, YearBuilt, Location_Rural, Garage, Location_Downtown",-0.0965,292070.2671,249775.4375,0.1389
+F_regression,9,RandomForest,"Floors, Bathrooms, Location_Urban, Location_Suburban, Condition, YearBuilt, Location_Rural, Garage, Location_Downtown",-0.1530,299507.1246,254479.3411,1.7694
